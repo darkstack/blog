@@ -1,0 +1,20 @@
+baseurl = "https://www.darkstack.com/blog/"
+languageCode = "en-us"
+title = "Darkstack's Rants"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = ""
+
+[permalinks]
+    post = "/:year/:month/:day/:title/"
+    page = "/:title/"
+
+[params]
+    description = "Hi !"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
